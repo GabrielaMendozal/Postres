@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Just Dessert
+    </title>
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="header">
+            <h1>
+                Just
+                <span>
+                    Dessert 
+                </span>
+            </h1>
+            <button type="button" class="botonJoin" onclick="Join(this)">
+                Join
+            </button>
+            <button type="button" class="botonLogin" >
+                Login
+            </Button>
+        </div>
+        <div class="navLink">
+            <form action="search" class="searchGo" >
+                <input type="text" name="search" placeholder="SEARCH" class="search" id="buscador">
+                <button type="button" id="btn" class="btnGo" onclick="mensaje(this)">
+                    GO
+                </button>
+            </form>
+            <div class="linkPostres" id="linkPostresId">
+                <ul class="postres" id="postresId">
+                    <li class="postresname">
+                        <img src="./imagenes/cake.png" alt="cake image" class="icono">
+                        Cake
+                    </li>
+                    <li class="postresname">
+                        <img src="./imagenes/cookie.png" alt="cookies image" class="icono">
+                        Cookies
+                    </li>
+                    <li class="postresname">
+                        <img src="./imagenes/ice-cream.png" alt="ice-cream image" class="icono">
+                        Ice Cream
+                    </li>
+                    <li class="postresname">
+                        <img src="./imagenes/pie.png" alt="pie image" class="icono">
+                        Pie
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="contenedorGeneral">
+            <div class="receta">
+                <h4 class="subtitulo">
+                    Recipe of the Day
+                </h4>
+                <img src="./imagenes/orange-tart.jpg" alt="orange tart image" class="tart">
+                <div class="autorReceta">
+                    <h5 class="autorReceta1">
+                        Orange Tea Jelly Tart By:
+                        <a href="#">
+                            yuripiano
+                        </a>
+                    </h5>
+                    <ul class="meEncantaN">
+                        <li>
+                            <img src="./imagenes/heart.png" alt="heart image" class="heart" onclick="actualizaLike(this)">
+                        </li>
+                        <li class="meEncanta">
+                            68
+                        </li>
+                    </ul>
+                </div>
+                <a href="#" class="piedepagina">
+                    See Full Recipe
+                </a>
+            </div>
+            <div class="recomendado">
+                <h4 class="subtitulo2">
+                    Recommended for you:
+                </h4>
+                <div class="autorecomendacion"> 
+                    <img src="./imagenes/macarons.jpg" alt="macarrones image" class="postreImagen">
+                    <div class="autor">
+                        <h5 class="autores">
+                            Macaron By:
+                            <a href="#">
+                                EmilieW
+                            </a>
+                        </h5>
+                        <ul class="meEncantaN">
+                            <li>
+                                <img src="./imagenes/heart.png" alt="heart image" class="heart" onclick="actualizaLike(this)">
+                            </li>
+                            <li class="meEncanta">
+                                212
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="recomendacion"> 
+                    <img src="./imagenes/creme-brulee.jpg" alt="cremeBrulee image" class="postreImagen">
+                    <div class="autor">
+                        <h5 class="autores">
+                            Crème Brûlée By:
+                            <a href="#">
+                                MarisaG
+                            </a>
+                        </h5>
+                        <ul class="meEncantaN">
+                            <li>
+                                <img src="./imagenes/heart.png" alt="heart image" class="heart" onclick="actualizaLike(this)">
+                            </li>
+                            <li class="meEncanta">
+                                33
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>

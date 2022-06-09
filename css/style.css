@@ -7,7 +7,7 @@ body{
 .header{
     height: 40px;
     padding-top: 0;
-    background-color: #2E3436;
+    background-color: #fff453;
     color: white;
     display: flex;
     flex-direction: row;
@@ -44,7 +44,7 @@ h1 span {color: #F39C12;
 }
 
 .navLink{
-    background-color: #ffdbb3;
+    background-color: #ff922c;
     display: flex;
     flex-direction: row;
     justify-content: space-between

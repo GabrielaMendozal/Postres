@@ -7,7 +7,7 @@ body{
 .header{
     height: 40px;
     padding-top: 0;
-    background-color: #fff453;
+    background-color: #ff3964;
     color: white;
     display: flex;
     flex-direction: row;
@@ -21,14 +21,14 @@ h1{
     flex: 1;
 }
 
-h1 span {color: #F39C12;
+h1 span {color: #fff3b0;
 }
 
 .botonJoin{
     width: 70px;
     margin: 10px;
     padding: 5px;
-    background-color: #F39C12;
+    background-color: #fff3b0;
     border: 2px solid black;
     box-shadow: 3px 3px 0px 0px black;
 }
@@ -44,7 +44,7 @@ h1 span {color: #F39C12;
 }
 
 .navLink{
-    background-color: #ff922c;
+    background-color: #fff3b0;
     display: flex;
     flex-direction: row;
     justify-content: space-between
